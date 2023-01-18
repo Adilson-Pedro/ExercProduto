@@ -31,6 +31,7 @@ namespace ExercProduto
             qte = int.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
             p.RemoverProdutos(qte);
             Console.WriteLine("Dados atualizados: " + p);
+            Console.WriteLine();
 
 
 
